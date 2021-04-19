@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "ChineseFont";
+    src: url("../../resources/fonts/chinese.ttf");
+}
+.App-header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;
+    top:0;
+}
+.headerButton{
+    margin: 0% 25%;
+    font-weight: 100;
+    cursor: pointer;
+    font-family: 'ChineseFont';
+}
+
+.headerButton:hover{
+    color: #3f3c3a;
+}
+
+.imageContainer{
+    height: 10%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.nothing{
+    text-decoration: 'none';
+}
+
+#imageLogo{
+    height: 40%;
+    width: 40%;
+    cursor: pointer;
+}
+
+#rightHeader{
+    margin-right: 75%;
+}
+
+#leftHeader{
+    margin-left: 25%;
+}
+.headerButtonsContainer{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    top: 10%;
+}
+
+#clickeado{
+    color: #3f3c3a;
+}
